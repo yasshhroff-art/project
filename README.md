@@ -346,27 +346,3 @@ sudo service postgresql status
 psql -U postgres
 CREATE DATABASE google_ads_db;
 ```
-
-### Google Ads API Errors
-- Verify developer token is approved
-- Check customer ID format (no dashes)
-- Ensure OAuth credentials are valid
-- Review API quotas in Google Cloud Console
-
-### CORS Errors
-- Verify `CORS(app)` is enabled in Flask
-- Check frontend API base URL configuration
-
-## 📝 License
-
-MIT License - see LICENSE file for details
-
-## 👥 Contributors
-
-Your Name - [GitHub](https://github.com/yourusername)
-
-## 📞 Support
-
-For issues and questions:
-- Open an issue on GitHub
-- Email: support@example.com
